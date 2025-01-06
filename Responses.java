@@ -3,8 +3,9 @@
 */
 
 public class Responses {
-	private String[][] absoluteResponses {
-		
+	public String[][] absoluteResponses =  {
+		{"great bb hbu", ""},
+		{"im here to hang out with u ;)", ""},
 		
 		
 		
@@ -17,13 +18,15 @@ public class Responses {
 		
 	};
 	
-	private String[] rowKeyWords {
-		"How",
+	public String[] rowKeyWords = {
+		"you", "lets", 
 		
 	};
 	
-	private String[] collumnKeyWords {
-		"Doing",
+	public String[] colKeyWords = {
+	"doing",
+	"do",
+	"go",
 		
-	}
+	};
 }
