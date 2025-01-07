@@ -1,9 +1,12 @@
 import java.util.*;
+import java.io.*;
 public class Main {
 	//the sentence from the user
-	private static String userInput = "what can you do?";
+	private static String userInput = ""; //the string that the user uses for input
 	static double agression = 0; //current agression
-	static final double maxAgression = 10; //
+	static final double maxAgression = 10; //max agression for girlfriend
+	
+	//arraylists for text documents
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in); //creates a scanner for user input
@@ -25,6 +28,15 @@ public class Main {
 		}
 			
 	}
+	public static ArrayList<String> textToArray()
+	{
+		ArrayList<String> triggerWords = FileReader.toStringList("triggerWords.txt");
+		ArrayList<String> questions = FileReader.toStringList("questions.txt");
+		
+		return triggerWords;
+		return questions;
+	}
+	
 
 	
 }
