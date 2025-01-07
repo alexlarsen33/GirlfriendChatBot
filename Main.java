@@ -9,7 +9,6 @@ public class Main {
 		
 		userSentence = input.nextLine();
 		
-		System.out.println("user input: " + userSentence);
 		
 	}
 	//Splits the sentence into each of its words
