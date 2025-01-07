@@ -2,6 +2,8 @@ import java.util.*;
 public class Main {
 	//the sentence from the user
 	private static String userInput = "what can you do?";
+	static double agression = 0; //current agression
+	static final double maxAgression = 10; //
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in); //creates a scanner for user input
