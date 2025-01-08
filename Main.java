@@ -13,7 +13,8 @@ public class Main {
 		userInput = input.nextLine();
 		Girlfriend gf = new Girlfriend(userInput);
 		
-		gf.askQuestion();
+		System.out.print(gf.askQuestion());
+		System.out.println(gf.checkForTriggers(input.nextLine()));
 		input.close();
 	}
 }

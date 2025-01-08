@@ -29,9 +29,7 @@ public class Girlfriend {
 			}
 		}
 		
-		System.out.println(closestQuestion);
-		System.out.println(closestScore);
-		return "question";
+		return closestQuestion;
 	}
 	
 	public String checkForTriggers(String response){
