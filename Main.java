@@ -12,8 +12,8 @@ public class Main {
 		
 		userInput = input.nextLine();
 		Girlfriend gf = new Girlfriend(userInput);
-		System.out.println(gf.checkForTriggers(input.nextLine()));
 		
+		gf.askQuestion();
 		input.close();
 	}
 }
