@@ -7,7 +7,7 @@ import java.io.*;
 public class Main {
 	//the sentence from the user
 	private static String userInput = ""; //the string that the user uses for input
-	private static final double maxAgression = 10; //max agression for girlfriend
+	private static final int maxAgression = 10; //max agression for girlfriend
 	
 	//arraylists for text documents
 	public static void main(String[] args) {
