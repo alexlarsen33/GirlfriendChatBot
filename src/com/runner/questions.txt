@@ -1,8 +1,8 @@
 0 - how are you?
 3 - How was your night last night?
-# - What do you want to eat?
-# - How was your day?
-# - What is your favorite video game?
-# - What is your favorite song?
-# - What is your favroite movie?
-# - What is your favorite food?
+0 - What do you want to eat?
+2 - How was your day?
+2 - What is your favorite video game?
+0 - What is your favorite song?
+1 - What is your favroite movie?
+2 - What is your favorite food?
