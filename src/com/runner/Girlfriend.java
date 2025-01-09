@@ -64,4 +64,8 @@ public class Girlfriend {
 		}
 		return newArray;
 	}
+	
+	public int getAgression(){
+		return agression;
+	}
 }
