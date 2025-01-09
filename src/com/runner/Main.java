@@ -24,7 +24,7 @@ public class Main {
 			
 			if(gf.getAgression() >= maxAgression){
 				System.out.print("I'm done");
-				System.exit(0);
+				System.exit(0); //this number can be changed
 			}
 		}
 		input.close();
