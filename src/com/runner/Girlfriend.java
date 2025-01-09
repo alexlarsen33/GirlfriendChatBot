@@ -46,7 +46,14 @@ public class Girlfriend {
 				return " >:(";
 			}
 		}
-		return ":)";
+		return findPositiveResponse();
+	}
+	
+	private String findPositiveResponse(){
+		String[][] agression table = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
+									{"I don't care"},
+									{"sure"},
+									{"ok..."}};
 	}
 	
 	private ArrayList<String> fileToArrayList(File file){
