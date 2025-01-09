@@ -1,7 +1,7 @@
 0 - how are you?
 3 - How was your night last night?
 0 - What do you want to eat?
-2 - How was your day?
+1 - How was your day?
 2 - What is your favorite video game?
 0 - What is your favorite song?
 1 - What is your favroite movie?
