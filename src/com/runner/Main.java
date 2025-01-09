@@ -1,8 +1,9 @@
-package com.runner;
+
 
 
 import java.util.*;
 import java.io.*;
+
 public class Main {
 	//the sentence from the user
 	private static String userInput = ""; //the string that the user uses for input
