@@ -6,3 +6,10 @@
 0 - What is your favorite song?
 1 - What is your favroite movie?
 2 - What is your favorite food?
+5 - How many other relationships have you had?
+9 - How many other people are you seeing?
+7 - Would you love me if I were a worm?
+8 - What were you doing last night
+6 - Can you peel an orange for me?
+5 - Who are your friends?
+9 - It's either me or the game

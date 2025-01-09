@@ -22,7 +22,8 @@ public class Main {
 			System.out.print(gf.askQuestion());
 			System.out.println(gf.checkForTriggers(input.nextLine()));
 			
-			if(gf.getAgression() > maxAgression){
+			if(gf.getAgression() >= maxAgression){
+				System.out.print("I'm done");
 				System.exit(0);
 			}
 		}
