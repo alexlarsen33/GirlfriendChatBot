@@ -1003,9 +1003,9 @@ Mady
 Breakup
 No
 Maybe
-Shut
+Shut, 2, Are you trying to tell me to shut up?
 Quiet
-Father
+Father, 3, You know that my father died.
 Dad
 Friends
 Video
