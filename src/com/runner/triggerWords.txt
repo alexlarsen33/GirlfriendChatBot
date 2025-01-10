@@ -1001,3 +1001,26 @@ Aylani
 Karen
 Mady
 Breakup
+No
+Maybe
+Shut, 2, Are you trying to tell me to shut up?
+Quiet
+Father, 3, You know that my father died.
+Dad
+Friends
+Video
+Game
+Mom
+Mother
+FedEx
+Millitary
+McDonalds
+SubWay
+Sports
+Sport
+Shark
+Slap
+Women
+Woman
+Men
+Man
