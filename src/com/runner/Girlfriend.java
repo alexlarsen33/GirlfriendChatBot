@@ -49,11 +49,12 @@ public class Girlfriend {
 		return findPositiveResponse();
 	}
 	
-	private String findPositiveResponse(){
-		String[][] agression table = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
+	private String findPositiveResponse(){//this is done
+		String[][] agressionTable = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
 									{"I don't care"},
 									{"sure"},
 									{"ok..."}};
+		return "neat";
 	}
 	
 	private ArrayList<String> fileToArrayList(File file){
