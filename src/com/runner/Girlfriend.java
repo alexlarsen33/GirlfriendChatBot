@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 import java.io.*;
 
@@ -20,6 +19,7 @@ public class Girlfriend {
 		int index = questions.get(0).indexOf("-");
 		String closestQuestion =  questions.get(0).substring(index + 2);
 		int closestScore =  Math.abs(Integer.parseInt(questions.get(0).substring(0, index - 1)) - agression);
+		int questionIndex = 0;
 		
 		for (int i = 1; i < questions.size(); i++) {
 			index = questions.get(i).indexOf("-");
@@ -28,9 +28,10 @@ public class Girlfriend {
 			if(Math.abs(testScore - agression) < closestScore){
 				closestQuestion = questions.get(i).substring(index + 2);
 				closestScore = Math.abs(Integer.parseInt(questions.get(i).substring(0, index - 1)));
+				questionIndex = i;
 			}
 		}
-		
+		questions.remove(questionIndex);
 		return closestQuestion;
 	}
 	
@@ -44,7 +45,15 @@ public class Girlfriend {
 				return " >:(";
 			}
 		}
-		return ":)";
+		return findPositiveResponse();
+	}
+	
+	private String findPositiveResponse(){
+		String[][] agressionTable = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
+									{"I don't care"},
+									{"sure"},
+									{"ok..."}};
+		return "neat";
 	}
 	
 	private ArrayList<String> fileToArrayList(File file){
@@ -63,5 +72,9 @@ public class Girlfriend {
 			System.out.println(e);
 		}
 		return newArray;
+	}
+	
+	public int getAgression(){
+		return agression;
 	}
 }
