@@ -50,12 +50,18 @@ public class Girlfriend {
 	
 	private String findPositiveResponse(){
 		String[][] agressionTable = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
-									{"I don't care"},
-									{"sure"},
+									{"Okii", "I agree", "good idea"},
+									{"Okay", ""},
+									{"ok..."},
+									{"mhm", "k"},
+									{"ok..."},
+									{"ok..."},
+									{"ok..."},
+									{"ok..."},
 									{"ok..."}};
-		return "neat";
+		
+		return agressionTable[agression][(int)(Math.random() * agressionTable[agression].length)];
 	}
-	
 	private ArrayList<String> fileToArrayList(File file){
 		ArrayList<String> newArray = new ArrayList<String>();
 		try {
