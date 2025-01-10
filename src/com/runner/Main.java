@@ -24,6 +24,7 @@ public class Main {
 			
 			if(gf.getAgression() >= maxAgression){
 				System.out.print("I'm done");
+				System.out.print("*Your girlfriend got too mad and stormed off*");
 				System.exit(0); //this number can be changed
 			}
 		}
