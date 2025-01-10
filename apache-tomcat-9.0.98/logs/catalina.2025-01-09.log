@@ -1,0 +1,507 @@
+09-Jan-2025 08:41:40.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:41:40.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:41:40.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:41:40.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:41:40.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:41:40.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:41:40.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:41:40.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:41:40.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:41:40.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:41:40.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:41:40.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:41:40.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:41:40.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:41:40.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:41:40.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:41:40.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:41:40.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:41:40.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:41:40.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:41:40.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:41:40.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:41:40.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:41:40.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:41:40.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:41:40.391 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:41:40.436 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [683] milliseconds
+09-Jan-2025 08:41:40.569 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:41:40.569 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:41:40.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:41:41.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [520] ms
+09-Jan-2025 08:41:41.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:41:41.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [640] ms
+09-Jan-2025 08:41:41.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:41:41.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [49] ms
+09-Jan-2025 08:41:41.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:41:41.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [52] ms
+09-Jan-2025 08:41:41.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:41:41.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [43] ms
+09-Jan-2025 08:41:41.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\src]
+09-Jan-2025 08:41:41.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:41:42.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\src] has finished in [93] ms
+09-Jan-2025 08:41:42.009 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:41:42.065 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1627] milliseconds
+09-Jan-2025 08:42:32.593 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/src]
+09-Jan-2025 08:42:32.635 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:42:32.706 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:42:32.713 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [78] ms
+09-Jan-2025 08:42:38.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:42:38.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:42:38.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:42:38.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:42:38.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:42:38.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:42:38.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:42:38.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:42:38.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:42:38.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:38.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:38.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:42:38.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:42:38.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:42:38.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:42:38.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:42:38.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:42:38.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:42:38.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:42:38.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:42:38.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:42:38.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:38.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:38.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:42:38.343 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:42:38.698 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:38.734 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+09-Jan-2025 08:42:38.739 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [707] milliseconds
+09-Jan-2025 08:42:38.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:42:38.900 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:42:38.917 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:42:39.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [552] ms
+09-Jan-2025 08:42:39.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:42:40.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [682] ms
+09-Jan-2025 08:42:40.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:42:40.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [57] ms
+09-Jan-2025 08:42:40.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:42:40.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [50] ms
+09-Jan-2025 08:42:40.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:42:40.336 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:42:40.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [93] ms
+09-Jan-2025 08:42:40.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:42:40.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [35] ms
+09-Jan-2025 08:42:40.397 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1657] milliseconds
+09-Jan-2025 08:42:40.405 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+09-Jan-2025 08:42:40.406 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:40.406 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jan-2025 08:42:40.445 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:40.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:43.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:42:43.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:42:43.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:42:43.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:42:43.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:42:43.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:42:43.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:42:43.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:42:43.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:42:43.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:43.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:43.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:42:43.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:42:43.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:42:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:42:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:42:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:42:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:42:43.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:42:43.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:42:43.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:42:43.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:43.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:42:43.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:42:43.977 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:42:44.393 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:44.426 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+09-Jan-2025 08:42:44.430 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [752] milliseconds
+09-Jan-2025 08:42:44.546 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:42:44.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:42:44.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:42:45.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [614] ms
+09-Jan-2025 08:42:45.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:42:45.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [594] ms
+09-Jan-2025 08:42:45.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:42:45.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [49] ms
+09-Jan-2025 08:42:45.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:42:45.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [43] ms
+09-Jan-2025 08:42:45.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:42:45.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:42:45.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [87] ms
+09-Jan-2025 08:42:45.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:42:46.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [40] ms
+09-Jan-2025 08:42:46.023 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1592] milliseconds
+09-Jan-2025 08:42:46.046 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+09-Jan-2025 08:42:46.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:46.081 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jan-2025 08:42:46.159 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:42:46.196 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:43:23.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:43:23.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:43:23.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:43:23.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:43:23.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:43:23.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:43:23.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:43:23.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:43:23.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:43:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:43:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:43:23.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:43:23.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:43:23.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:43:23.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:43:23.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:43:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:43:23.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:43:23.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:43:23.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:43:23.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:43:23.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:43:23.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:43:23.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:43:23.352 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:43:23.751 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:43:23.804 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [737] milliseconds
+09-Jan-2025 08:43:23.910 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:43:23.910 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:43:23.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:43:24.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [577] ms
+09-Jan-2025 08:43:24.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:43:25.043 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [536] ms
+09-Jan-2025 08:43:25.043 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:43:25.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [70] ms
+09-Jan-2025 08:43:25.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:43:25.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [51] ms
+09-Jan-2025 08:43:25.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:43:25.244 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:43:25.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [88] ms
+09-Jan-2025 08:43:25.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:43:25.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [33] ms
+09-Jan-2025 08:43:25.296 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:43:25.342 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1537] milliseconds
+09-Jan-2025 08:46:25.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:46:25.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:46:25.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:46:25.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:46:25.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:46:25.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:46:25.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:46:25.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:46:25.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:46:25.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:46:25.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:46:25.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:46:25.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:46:25.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:46:25.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:46:25.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:46:25.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:46:25.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:46:25.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:46:25.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:46:25.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:46:25.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:46:25.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:46:25.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:46:25.952 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:46:26.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:46:26.398 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [794] milliseconds
+09-Jan-2025 08:46:26.505 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:46:26.506 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:46:26.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:46:27.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [587] ms
+09-Jan-2025 08:46:27.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:46:27.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [642] ms
+09-Jan-2025 08:46:27.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:46:27.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [50] ms
+09-Jan-2025 08:46:27.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:46:27.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [44] ms
+09-Jan-2025 08:46:27.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:46:27.956 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:46:27.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [114] ms
+09-Jan-2025 08:46:27.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:46:28.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [36] ms
+09-Jan-2025 08:46:28.029 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:46:28.089 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1689] milliseconds
+09-Jan-2025 08:49:08.271 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/MyWebApp]
+09-Jan-2025 08:49:08.273 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MyWebApp] has started
+09-Jan-2025 08:49:08.332 WARNING [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+09-Jan-2025 08:49:08.427 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:49:08.436 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MyWebApp] is completed
+09-Jan-2025 08:49:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:49:39.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:49:39.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:49:39.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:49:39.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:49:39.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:49:39.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:49:39.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:49:39.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:49:39.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:49:39.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:49:39.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:49:39.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:49:39.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:49:39.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:49:39.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:49:39.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:49:39.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:49:39.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:49:39.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:49:39.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:49:39.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:49:39.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:49:39.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:49:39.128 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:49:39.652 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:49:39.704 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [987] milliseconds
+09-Jan-2025 08:49:39.862 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:49:39.864 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:49:39.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:49:40.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [833] ms
+09-Jan-2025 08:49:40.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:49:41.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [1,026] ms
+09-Jan-2025 08:49:41.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:49:41.878 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [93] ms
+09-Jan-2025 08:49:41.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:49:41.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [91] ms
+09-Jan-2025 08:49:41.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:49:42.017 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+09-Jan-2025 08:49:42.112 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:49:42.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [158] ms
+09-Jan-2025 08:49:42.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:49:42.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [57] ms
+09-Jan-2025 08:49:42.197 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:49:42.274 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2568] milliseconds
+09-Jan-2025 08:52:00.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:52:00.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:52:00.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:52:00.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:52:00.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:52:00.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:52:00.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:52:00.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:52:00.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:52:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:00.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:52:00.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:52:00.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:52:00.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:52:00.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:52:00.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:52:00.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:52:00.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:52:00.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:52:00.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:52:00.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:00.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:00.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:52:00.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:52:00.932 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:52:00.983 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [719] milliseconds
+09-Jan-2025 08:52:01.094 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:52:01.095 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:52:01.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:52:01.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [602] ms
+09-Jan-2025 08:52:01.720 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:52:02.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [619] ms
+09-Jan-2025 08:52:02.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:52:02.396 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [55] ms
+09-Jan-2025 08:52:02.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:52:02.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [48] ms
+09-Jan-2025 08:52:02.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:52:02.480 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+09-Jan-2025 08:52:02.535 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:52:02.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [103] ms
+09-Jan-2025 08:52:02.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:52:02.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [36] ms
+09-Jan-2025 08:52:02.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:52:02.639 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1655] milliseconds
+09-Jan-2025 08:52:58.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:52:58.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:52:58.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:52:58.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:52:58.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:52:58.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:52:58.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:52:58.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:52:58.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:52:58.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:58.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:52:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:52:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:52:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:52:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:52:58.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:52:58.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:52:58.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:52:58.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:52:58.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:52:58.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:58.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:52:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:52:58.841 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:52:59.269 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:52:59.327 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [780] milliseconds
+09-Jan-2025 08:52:59.466 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:52:59.467 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:52:59.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:53:00.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [612] ms
+09-Jan-2025 08:53:00.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:53:00.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [593] ms
+09-Jan-2025 08:53:00.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:53:00.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [56] ms
+09-Jan-2025 08:53:00.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:53:00.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [58] ms
+09-Jan-2025 08:53:00.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:53:00.846 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+09-Jan-2025 08:53:00.904 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:53:00.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [103] ms
+09-Jan-2025 08:53:00.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:53:00.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [39] ms
+09-Jan-2025 08:53:00.970 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:53:01.020 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1692] milliseconds
+09-Jan-2025 08:54:56.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+09-Jan-2025 08:54:56.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+09-Jan-2025 08:54:56.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+09-Jan-2025 08:54:56.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Jan-2025 08:54:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2025 08:54:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2025 08:54:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+09-Jan-2025 08:54:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+09-Jan-2025 08:54:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2025 08:54:56.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:54:56.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:54:56.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jan-2025 08:54:56.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jan-2025 08:54:56.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jan-2025 08:54:56.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jan-2025 08:54:56.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jan-2025 08:54:56.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\conf\logging.properties
+09-Jan-2025 08:54:56.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2025 08:54:56.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jan-2025 08:54:56.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jan-2025 08:54:56.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jan-2025 08:54:56.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:54:56.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\apache-tomcat-9.0.98
+09-Jan-2025 08:54:56.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\apache-tomcat-9.0.98\temp
+09-Jan-2025 08:54:56.082 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+09-Jan-2025 08:54:56.425 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:54:56.473 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [667] milliseconds
+09-Jan-2025 08:54:56.607 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2025 08:54:56.607 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+09-Jan-2025 08:54:56.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs]
+09-Jan-2025 08:54:57.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\docs] has finished in [544] ms
+09-Jan-2025 08:54:57.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples]
+09-Jan-2025 08:54:57.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\examples] has finished in [614] ms
+09-Jan-2025 08:54:57.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager]
+09-Jan-2025 08:54:57.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\host-manager] has finished in [54] ms
+09-Jan-2025 08:54:57.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager]
+09-Jan-2025 08:54:57.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\manager] has finished in [45] ms
+09-Jan-2025 08:54:57.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp]
+09-Jan-2025 08:54:57.922 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+09-Jan-2025 08:54:57.971 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2025 08:54:57.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [91] ms
+09-Jan-2025 08:54:57.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT]
+09-Jan-2025 08:54:58.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\apache-tomcat-9.0.98\webapps\ROOT] has finished in [35] ms
+09-Jan-2025 08:54:58.027 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jan-2025 08:54:58.076 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1602] milliseconds
