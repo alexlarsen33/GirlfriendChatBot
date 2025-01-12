@@ -16,16 +16,17 @@ public class Girlfriend {
 	}
 	
 	public String askQuestion(){
+		int randomInt = (int)(Math.random() * 4);
 		int index = questions.get(0).indexOf("-");
 		String closestQuestion =  questions.get(0).substring(index + 2);
-		int closestScore =  Math.abs(Integer.parseInt(questions.get(0).substring(0, index - 1)) - agression);
+		int closestScore =  Math.abs(Integer.parseInt(questions.get(0).substring(0, index - 1)) - agression + randomInt);
 		int questionIndex = 0;
 		
 		for (int i = 1; i < questions.size(); i++) {
 			index = questions.get(i).indexOf("-");
 			
 			int testScore = Integer.parseInt(questions.get(i).substring(0, index - 1));
-			if(Math.abs(testScore - agression) < closestScore){
+			if(Math.abs(testScore - agression + randomInt) < closestScore){
 				closestQuestion = questions.get(i).substring(index + 2);
 				closestScore = Math.abs(Integer.parseInt(questions.get(i).substring(0, index - 1)));
 				questionIndex = i;
@@ -39,10 +40,23 @@ public class Girlfriend {
 		for(String word : triggerWords){
 			word = word.toLowerCase();
 			response = response.toLowerCase();
-			
-			if(response.indexOf(word) != -1){
-				agression += 2;
-				return " >:(";
+
+			if(word.indexOf(",") != -1){
+				int firstIndex = word.indexOf(",");
+				int secondIndex = word.indexOf("-");
+				String comment = word.substring(secondIndex + 2);
+				int agressionScore = Integer.parseInt(word.substring(firstIndex + 2, secondIndex - 1));
+				word = word.substring(0, firstIndex);
+				
+				if (response.indexOf(word) != -1){
+					agression += agressionScore;
+					return comment;
+				}
+			}else if (response.indexOf(word) != -1){
+				if (word.indexOf(",") == -1){
+					agression += 1;
+					return "I don't want to hear about this " + word + " person. You probably love them more than me";
+				}
 			}
 		}
 		return findPositiveResponse();
@@ -62,6 +76,7 @@ public class Girlfriend {
 		
 		return agressionTable[agression][(int)(Math.random() * agressionTable[agression].length)];
 	}
+
 	private ArrayList<String> fileToArrayList(File file){
 		ArrayList<String> newArray = new ArrayList<String>();
 		try {
