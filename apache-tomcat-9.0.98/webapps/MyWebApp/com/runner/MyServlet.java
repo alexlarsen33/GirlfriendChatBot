@@ -6,11 +6,14 @@ import java.io.IOException;
 
 public class MyServlet extends HttpServlet {
 	public static HttpServletResponse currentResponse = null;
+	private static String userResponse = "";
 	
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Retrieve the message from the request
         String userMessage = request.getParameter("message");
+		
+		userResponse = userMessage;
 
         // Print the user's message to the console
         //System.out.println("Message from user: " + userMessage);
@@ -33,6 +36,10 @@ public class MyServlet extends HttpServlet {
 	
 	public static void sendMessage(HttpServletResponse response, String message) throws ServletException, IOException {
 		response.getWriter().write(message);
+	}
+	
+	public static String getMessage() {
+		return userResponse;
 	}
 	
 }
