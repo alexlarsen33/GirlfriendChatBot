@@ -1000,27 +1000,29 @@ Ayah
 Aylani
 Karen
 Mady
-Breakup
-No
-Maybe
+Breakup, 1 - do you not want to hang out with me?
+No, 2 - do you not pay attention to me?
+Maybe, 2 - are you being indecisive? 
 Shut, 2 - Are you trying to tell me to shut up?
-Quiet
+Quiet, 2 - Are you trying to tell me to shut up?
 Father, 3 - You know that my father died.
-Dad
-Friends
-Video
-Game
-Mom
-Mother
-FedEx
+Dad, 3 - You know that my father died.
+Friends, 3 - do you want to hang out with your friends instead?
+Video, 3 - That is lazy you should be doing something else?
+Game, 3 - That is lazy you should be doing something else?
+Videos, 3 - That is lazy you should be doing something else?
+Games, 3 - That is lazy you should be doing something else?
+Mom, 3 - You do know I don't talk to my mother right?
+Mother, 3 - You do know I don't talk to my mother right?
 Millitary, 3 - You know that my dad died in the millitary right?
-McDonalds
-SubWay
-Sports
-Sport
-Shark
-Slap
-Women
-Woman
-Men
-Man
+McDonalds, 4 - That is cheap food
+SubWay, 3 - Their foods tastes terrible
+Sports, 2 - You should hang out with me instead.
+Sport, 2 - You should hang out with me instead.
+Shark, 2 - Are you interested in any other animals?
+Slap, 2 - Are you trying to tell me to shut up?
+Women, 3 - Are you seeing someone else?
+Woman, 3 - Are you seeing someone else?
+Men, 3 - Are you seeing someone else?
+Man, 3 - Are you seeing someone else?
+Sans, 1 - Do you want to have a bad time?
