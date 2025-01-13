@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 public class MyServlet extends HttpServlet {
-	public HttpServletResponse currentResponse = null;
+	public static HttpServletResponse currentResponse = null;
 	
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -23,7 +23,7 @@ public class MyServlet extends HttpServlet {
         //response.getWriter().write("Hello");
     }
 	
-	public void sendMessage(String message) {
+	public static void sendMessage(String message) throws ServletException, IOException {
 		if (currentResponse == null) {
 			System.out.println("Cannot send message, currentResponse is null.");
 		}else{
@@ -31,7 +31,7 @@ public class MyServlet extends HttpServlet {
 		}
 	}
 	
-	public void sendMessage(HttpServletResponse response, String message) {
+	public static void sendMessage(HttpServletResponse response, String message) throws ServletException, IOException {
 		response.getWriter().write(message);
 	}
 	
