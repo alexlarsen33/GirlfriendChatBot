@@ -1,13 +1,23 @@
 
 import java.util.*;
 import java.io.*;
-
+/**
+ * The main/runer class
+ */
 public class Main {
 	//the sentence from the user
-	private static String userInput = ""; //the string that the user uses for input
-	private static final int maxAgression = 10; //max agression for girlfriend
-	
-	//arraylists for text documents
+	/**
+	 * the string that the user uses for input
+	 */ 
+	private static String userInput = "";
+	/**
+	 * max agression for girlfriend
+	 */ 
+	private static final int maxAgression = 10; 
+	/**
+	 * Takes in input and gets the responce from Girlfriend and prints it
+	 * @param args the main string
+	 */ 
 	public static void main(String[] args) {
 		boolean isTalking = true;
 		Scanner input = new Scanner(System.in); //creates a scanner for user input

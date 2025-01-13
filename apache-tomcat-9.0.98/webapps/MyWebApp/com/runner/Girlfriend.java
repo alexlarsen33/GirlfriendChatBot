@@ -1,20 +1,40 @@
 
 import java.util.*;
 import java.io.*;
-
+/**
+ * Gets the users input and returns a responce based on what the user said
+ * Also asks questions
+*/ 
 public class Girlfriend {
-	private int agression; //current agression
+	/**
+	 * current agression for Girlfriend changes based on user input
+	 */ 
+	private int agression;
+	/**
+	 * Girfriends name
+	 */ 
 	private final String NAME;
+	/**
+	 * A list of trigger words that increases agression based on the users input
+	 */ 
 	public ArrayList<String> triggerWords;
+	/**
+	 * An arrayList of questions that your girlfriend asks
+	 */ 
 	public ArrayList<String> questions;
-	
+	/**
+	 * The girlfriend constructor
+	 * @param name the name for the girlfriend
+	 */ 
 	public Girlfriend(String name){
 		agression = 0;
 		NAME = name;
 		triggerWords = fileToArrayList(new File("triggerWords.txt"));
 		questions = fileToArrayList(new File("questions.txt"));
 	}
-	
+	/**
+	 * 
+	 */ 
 	public String askQuestion(){
 		int randomInt = (int)(Math.random() * 4);
 		int index = questions.get(0).indexOf("-");
