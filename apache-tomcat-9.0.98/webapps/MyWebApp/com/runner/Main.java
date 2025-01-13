@@ -17,7 +17,7 @@ public class Main {
 		Girlfriend gf = new Girlfriend(userInput);
 		
 		while (isTalking) {
-			System.out.print(gf.askQuestion());
+			System.out.print(gf.askQuestion() + " ");
 			System.out.println(gf.checkForTriggers(input.nextLine()));
 			
 			if(gf.getAgression() >= maxAgression){

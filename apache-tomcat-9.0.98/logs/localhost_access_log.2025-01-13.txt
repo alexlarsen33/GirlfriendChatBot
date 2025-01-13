@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [13/Jan/2025:08:10:59 -0600] "GET /MyWebApp/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jan/2025:08:10:59 -0600] "GET /favicon.ico HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jan/2025:08:11:02 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [13/Jan/2025:08:11:04 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 5
