@@ -71,14 +71,14 @@ public class Girlfriend {
 	private String findPositiveResponse(){
 		String[][] agressionTable = {{"Hahahaha yes :)", "wow sounds great", "hehehehe yea thanks"},
 									{"Okii", "I agree", "good idea"},
-									{"Okay", ""},
-									{"ok..."},
-									{"mhm", "k"},
-									{"ok..."},
-									{"ok..."},
-									{"ok..."},
-									{"ok..."},
-									{"ok..."}};
+									{"Okay", "That's cool"},
+									{"ok...", "yep", "nice"},
+									{"mhm", "k", "sounds good"},
+									{"ok."},
+									{"mhmmmmmmmmm"},
+									{"I'm done"},
+									{"I don't even care what you say at this point.", "Why should I believe what you say."},
+									{"Sounds believable.", "I don't believe Liars.", "It's about time we break up"}};
 		
 		return agressionTable[agression][(int)(Math.random() * agressionTable[agression].length)];
 	}

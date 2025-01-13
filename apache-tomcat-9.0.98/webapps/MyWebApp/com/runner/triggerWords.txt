@@ -1026,3 +1026,4 @@ Woman, 3 - Are you seeing someone else?
 Men, 3 - Are you seeing someone else?
 Man, 3 - Are you seeing someone else?
 Sans, 1 - Do you want to have a bad time?
+bro, 1 - Who are you calling bro???
