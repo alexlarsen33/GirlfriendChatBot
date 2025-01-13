@@ -8,9 +8,19 @@ public class MyServlet extends HttpServlet {
 	public static HttpServletResponse currentResponse = null;
 	private static String userResponse = "";
 	
+	private static Girlfriend gf = null;
+	
+	
+	
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Retrieve the message from the request
+		
+		if (gf == null) {
+			gf = new Girlfriend("Josh");
+		}
+		
+		
         String userMessage = request.getParameter("message");
 		
 		userResponse = userMessage;
@@ -23,7 +33,7 @@ public class MyServlet extends HttpServlet {
 
         // Respond with "Hello"
 		currentResponse = response;
-        //response.getWriter().write("Hello");
+        response.getWriter().write(gf.checkForTriggers(userMessage));
     }
 	
 	public static void sendMessage(String message) throws ServletException, IOException {
