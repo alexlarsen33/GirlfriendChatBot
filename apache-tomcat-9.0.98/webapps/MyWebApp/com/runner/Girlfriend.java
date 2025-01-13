@@ -37,25 +37,29 @@ public class Girlfriend {
 	}
 	
 	public String checkForTriggers(String response){
-		for(String word : triggerWords){
-			word = word.toLowerCase();
-			response = response.toLowerCase();
+		String[] responseList = response.split(" ");
+		
+		for(String responseWord : responseList){
+			for(String word : triggerWords){
+				word = word.toLowerCase();
+				response = response.toLowerCase();
 
-			if(word.indexOf(",") != -1){
-				int firstIndex = word.indexOf(",");
-				int secondIndex = word.indexOf("-");
-				String comment = word.substring(secondIndex + 2);
-				int agressionScore = Integer.parseInt(word.substring(firstIndex + 2, secondIndex - 1));
-				word = word.substring(0, firstIndex);
-				
-				if (response.indexOf(word) != -1){
-					agression += agressionScore;
-					return comment;
-				}
-			}else if (response.indexOf(word) != -1){
-				if (word.indexOf(",") == -1){
-					agression += 1;
-					return "I don't want to hear about this " + word + " person. You probably love them more than me";
+				if(word.indexOf(",") != -1){
+					int firstIndex = word.indexOf(",");
+					int secondIndex = word.indexOf("-");
+					String comment = word.substring(secondIndex + 2);
+					int agressionScore = Integer.parseInt(word.substring(firstIndex + 2, secondIndex - 1));
+					word = word.substring(0, firstIndex);
+					
+					if (responseWord.equalsIgnoreCase(word)){
+						agression += agressionScore;
+						return comment;
+					}
+				}else if (responseWord.equalsIgnoreCase(word)){
+					if (word.indexOf(",") == -1){
+						agression += 1;
+						return "I don't want to hear about this " + word + " person. You probably love them more than me";
+					}
 				}
 			}
 		}
