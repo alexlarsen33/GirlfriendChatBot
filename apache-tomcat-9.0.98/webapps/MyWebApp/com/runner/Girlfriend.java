@@ -13,8 +13,8 @@ public class Girlfriend {
 	public Girlfriend(String name){
 		agression = 0;
 		NAME = name;
-		triggerWords = fileToArrayList(new File("triggerWords.txt"));
-		questions = fileToArrayList(new File("questions.txt"));
+		triggerWords = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/WEB-INF/classes/com/runner/triggerWords.txt"));
+		questions = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/WEB-INF/classes/com/runner/questions.txt"));
 	}
 	
 	public String askQuestion(){
@@ -96,6 +96,26 @@ public class Girlfriend {
 			
 			sc.close();
 		}catch(Exception e){
+			System.out.println(e);
+		}
+		return newArray;
+	}
+	
+	private ArrayList<String> fileToArrayList2(String fileName) {
+		ArrayList<String> newArray = new ArrayList<>();
+		try (InputStream is = getClass().getClassLoader().getResourceAsStream(fileName)) {
+			if (is == null) {
+				throw new FileNotFoundException("File not found: " + fileName);
+			}
+			try (Scanner sc = new Scanner(is)) {
+				while (sc.hasNextLine()) {
+					String next = sc.nextLine();
+					if (!next.equalsIgnoreCase(NAME)) {
+						newArray.add(next);
+					}
+				}
+			}
+		} catch (Exception e) {
 			System.out.println(e);
 		}
 		return newArray;
