@@ -34,7 +34,7 @@ public class MyServlet extends HttpServlet {
 
         // Respond with "Hello"
 		currentResponse = response;
-        response.getWriter().write(gf.checkForTriggers(userMessage) + gf.askQuestion());
+        response.getWriter().write(gf.checkForTriggers(userMessage) + "\n" + gf.askQuestion());
     }
 	
 	public static void sendMessage(String message) throws ServletException, IOException {

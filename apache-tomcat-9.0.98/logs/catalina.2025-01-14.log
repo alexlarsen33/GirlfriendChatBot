@@ -526,3 +526,46 @@
 14-Jan-2025 08:48:10.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\ROOT] has finished in [53] ms
 14-Jan-2025 08:48:10.319 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 14-Jan-2025 08:48:10.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1902] milliseconds
+14-Jan-2025 08:54:21.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+14-Jan-2025 08:54:21.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+14-Jan-2025 08:54:21.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+14-Jan-2025 08:54:21.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Jan-2025 08:54:21.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Jan-2025 08:54:21.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Jan-2025 08:54:21.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+14-Jan-2025 08:54:21.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Jan-2025 08:54:21.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98
+14-Jan-2025 08:54:21.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98
+14-Jan-2025 08:54:21.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jan-2025 08:54:21.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jan-2025 08:54:21.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jan-2025 08:54:21.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jan-2025 08:54:21.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jan-2025 08:54:21.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\conf\logging.properties
+14-Jan-2025 08:54:21.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jan-2025 08:54:21.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jan-2025 08:54:21.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Jan-2025 08:54:21.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Jan-2025 08:54:21.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98
+14-Jan-2025 08:54:21.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98
+14-Jan-2025 08:54:21.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\temp
+14-Jan-2025 08:54:21.553 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Mullvad VPN\resources;C:\Users\ethan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ethan\AppData\Local\Programs\Python\Python312\;C:\Users\ethan\AppData\Local\Microsoft\WindowsApps;C:\Users\ethan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ethan\.dotnet\tools;C:\Program Files\Java\jdk-17;C:\Users\ethan\AppData\Local\GitHubDesktop\bin;C:\javafx-sdk-23.0.1;;.]
+14-Jan-2025 08:54:22.014 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:54:22.070 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [823] milliseconds
+14-Jan-2025 08:54:22.239 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jan-2025 08:54:22.240 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+14-Jan-2025 08:54:22.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\docs]
+14-Jan-2025 08:54:22.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\docs] has finished in [707] ms
+14-Jan-2025 08:54:22.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\examples]
+14-Jan-2025 08:54:23.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\examples] has finished in [679] ms
+14-Jan-2025 08:54:23.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\host-manager]
+14-Jan-2025 08:54:23.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\host-manager] has finished in [73] ms
+14-Jan-2025 08:54:23.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\manager]
+14-Jan-2025 08:54:23.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\manager] has finished in [68] ms
+14-Jan-2025 08:54:23.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\MyWebApp]
+14-Jan-2025 08:54:23.916 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 08:54:23.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\MyWebApp] has finished in [130] ms
+14-Jan-2025 08:54:23.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\ROOT]
+14-Jan-2025 08:54:23.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ethan\Downloads\java\Final\GirlfriendChatBot\apache-tomcat-9.0.98\webapps\ROOT] has finished in [45] ms
+14-Jan-2025 08:54:23.993 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:54:24.045 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1974] milliseconds

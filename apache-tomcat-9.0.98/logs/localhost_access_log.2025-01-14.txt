@@ -35,3 +35,10 @@
 0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:49:06 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 58
 0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:49:15 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 32
 0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:49:20 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:54:24 -0600] "GET /MyWebApp/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:54:27 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:54:52 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:55:00 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:55:05 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 90
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:55:09 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 101
+0:0:0:0:0:0:0:1 - - [14/Jan/2025:08:55:12 -0600] "POST /MyWebApp/MyServlet HTTP/1.1" 200 99

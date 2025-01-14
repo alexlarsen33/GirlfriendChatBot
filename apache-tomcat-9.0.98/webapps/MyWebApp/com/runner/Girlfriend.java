@@ -1,3 +1,4 @@
+package com.runner;
 
 import java.util.*;
 import java.io.*;
@@ -29,8 +30,8 @@ public class Girlfriend {
 	public Girlfriend(String name){
 		agression = 0;
 		NAME = name;
-		triggerWords = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/WEB-INF/classes/com/runner/triggerWords.txt"));
-		questions = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/WEB-INF/classes/com/runner/questions.txt"));
+		triggerWords = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/com/runner/triggerWords.txt"));
+		questions = fileToArrayList(new File("C:/Users/ethan/Downloads/java/Final/GirlfriendChatBot/apache-tomcat-9.0.98/webapps/MyWebApp/com/runner/questions.txt"));
 	}
 	/**
 	 * 
