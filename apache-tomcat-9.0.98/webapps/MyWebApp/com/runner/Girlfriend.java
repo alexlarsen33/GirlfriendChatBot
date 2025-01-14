@@ -1,5 +1,3 @@
-package com.runner;
-
 
 import java.util.*;
 import java.io.*;
@@ -60,6 +58,14 @@ public class Girlfriend {
 	
 	public String checkForTriggers(String response){
 		String[] responseList = response.split(" ");
+		
+		if(responseList.length < 4){
+			agression += 1;
+			return "That's really all you have to say? Think of a little more to respond.";
+		}else if (responseList.length > 20){
+			agression += 1;
+			return "I'm not reading all of that";
+		}
 		
 		for(String responseWord : responseList){
 			for(String word : triggerWords){

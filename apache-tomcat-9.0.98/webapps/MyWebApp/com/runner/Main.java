@@ -14,6 +14,11 @@ public class Main {
 	 * max agression for girlfriend
 	 */ 
 	private static final int maxAgression = 10; 
+	
+	/**
+	 * Number of question's asked before loosing
+	 */ 
+	private static int questionsAsked = 0; 
 	/**
 	 * Takes in input and gets the responce from Girlfriend and prints it
 	 * @param args the main string
@@ -27,13 +32,22 @@ public class Main {
 		Girlfriend gf = new Girlfriend(userInput);
 		
 		while (isTalking) {
-			System.out.print(gf.askQuestion() + " ");
-			System.out.println(gf.checkForTriggers(input.nextLine()));
+			System.out.print("(" + questionsAsked + ") " + gf.askQuestion() + " ");
+			questionsAsked += 1;
 			
-			if(gf.getAgression() >= maxAgression){
-				System.out.print("I'm done");
-				System.out.print("*Your girlfriend got too mad and stormed off*");
-				System.exit(0); //this number can be changed
+			String response = input.nextLine();
+			if(!response.equalsIgnoreCase("exit")){
+				System.out.println(gf.checkForTriggers(response));
+				
+				if(gf.getAgression() >= maxAgression){
+					System.out.println("I'm done");
+					System.out.println("*Your girlfriend got too mad and stormed off*");
+					System.out.println("You survived: " + questionsAsked + " questions.");
+					
+					isTalking = false;
+				}
+			}else{
+				isTalking = false;
 			}
 		}
 		input.close();

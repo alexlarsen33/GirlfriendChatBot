@@ -9,7 +9,7 @@
 5 - How many other relationships have you had?
 9 - How many other people are you seeing?
 7 - Would you love me if I were a worm?
-8 - What were you doing last night
+8 - What were you doing last night?
 6 - Can you peel an orange for me?
 5 - Who are your friends?
 9 - It's either me or the game
@@ -43,7 +43,7 @@
 2 - 
 4 - 
 0 - Do you want to support sea life?
-1 - Do you want to support the trees
+1 - Do you want to support the trees?
 3 - do you have any hobbies?
 2 - What was your favorite thing about your hometown?
 8 - Do you talk to your friends this way?
