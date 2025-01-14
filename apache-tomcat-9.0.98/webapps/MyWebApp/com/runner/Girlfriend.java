@@ -36,6 +36,10 @@ public class Girlfriend {
 	 * 
 	 */ 
 	public String askQuestion(){
+		if(questions.size() == 0){
+			return "I'm out of questions. You win.";
+		}
+		
 		int randomInt = (int)(Math.random() * 4);
 		int index = questions.get(0).indexOf("-");
 		String closestQuestion =  questions.get(0).substring(index + 2);

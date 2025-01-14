@@ -40,3 +40,4 @@
 8 - Do you talk to your friends this way?
 9 - Do you have anything better to do?
 2 - What did you do over the summer?
+6 - Is there any specific date that you forgot today?
