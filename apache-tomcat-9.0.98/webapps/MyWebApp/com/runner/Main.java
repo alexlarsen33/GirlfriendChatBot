@@ -32,7 +32,7 @@ public class Main {
 		Girlfriend gf = new Girlfriend(userInput);
 		
 		while (isTalking) {
-			System.out.print("(" + questionsAsked + ") " + gf.askQuestion() + " ");
+			System.out.print("(" + gf.getAgression() + ") " + gf.askQuestion() + " ");
 			questionsAsked += 1;
 			
 			String response = input.nextLine();

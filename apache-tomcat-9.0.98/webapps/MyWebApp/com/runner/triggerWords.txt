@@ -1001,7 +1001,7 @@ Aylani
 Karen
 Mady
 Breakup, 1 - do you not want to hang out with me?
-No, 2 - do you not pay attention to me?
+No, 2 - Who do you think you are saying no to me?
 Maybe, 2 - are you being indecisive? 
 Shut, 2 - Are you trying to tell me to shut up?
 Quiet, 2 - Are you trying to tell me to shut up?
@@ -1027,3 +1027,6 @@ Men, 3 - Are you seeing someone else?
 Man, 3 - Are you seeing someone else?
 Sans, 1 - Do you want to have a bad time?
 bro, 1 - Who are you calling bro???
+Garbage, 2 - wdym Garbage?
+Nothing, 1 - Nothing??
+ex, 4 - there is no reason to bring up ex's here.
