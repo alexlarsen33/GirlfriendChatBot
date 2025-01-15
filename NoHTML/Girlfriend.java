@@ -113,7 +113,7 @@ public class Girlfriend {
 	}
 	
 	/**
-	 * Helper method for checkForTriggers in the case that no triggers are found
+	 * Method for checkForTriggers in the case that no triggers are found
 	 * 
 	 * @return String a neutral response depending on the agression of the girlfriend
 	 */ 
@@ -134,7 +134,7 @@ public class Girlfriend {
 	}
 	
 	/**
-	 * Helper method to convert text files into ArrayLists
+	 * Method to convert text files into ArrayLists
 	 * 
 	 * @param file the file that should be converted into ArrayList
 	 * @return ArrayList<String> the file converted into an array list with each line being an item in the list
@@ -158,7 +158,7 @@ public class Girlfriend {
 	}
 	
 	/**
-	 * Getter Method for the girlfriend's agression
+	 * Method for getting the girlfriend's agression
 	 * 
 	 * @return int the agression of the girlfriend
 	 */ 
