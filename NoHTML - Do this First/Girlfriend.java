@@ -44,27 +44,29 @@ public class Girlfriend {
 	 * @return String the question that the method wants to ask the user
 	 */ 
 	public String askQuestion(){
+		//Makes sure the question list isn't empty
 		if(questions.size() == 0){
 			return "I'm out of questions. You win.";
 		}
 		
-		int randomInt = (int)(Math.random() * 4);
-		int index = questions.get(0).indexOf("-");
-		String closestQuestion =  questions.get(0).substring(index + 2);
-		int closestScore =  Math.abs(Integer.parseInt(questions.get(0).substring(0, index - 1)) - agression + randomInt);
-		int questionIndex = 0;
+		//Set up stuff for first index because some variables need initial values differently
+		int randomInt = (int)(Math.random() * 4); //Random Variance so Question isn't as predictable
+		int index = questions.get(0).indexOf("-"); // Separates text line by index
+		String closestQuestion =  questions.get(0).substring(index + 2); //Finds the question at current index
+		int closestScore =  Math.abs(Integer.parseInt(questions.get(0).substring(0, index - 1)) - agression + randomInt);//Finds agressin score to add at current index
+		int questionIndex = 0; //Remembers closest question index
 		
 		for (int i = 1; i < questions.size(); i++) {
 			index = questions.get(i).indexOf("-");
 			
-			int testScore = Integer.parseInt(questions.get(i).substring(0, index - 1));
-			if(Math.abs(testScore - agression + randomInt) < closestScore){
+			int testScore = Integer.parseInt(questions.get(i).substring(0, index - 1)); // Gets the agression score at the new index
+			if(Math.abs(testScore - agression + randomInt) < closestScore){ // Logic to see if the current question is better fit than the old one
 				closestQuestion = questions.get(i).substring(index + 2);
 				closestScore = Math.abs(Integer.parseInt(questions.get(i).substring(0, index - 1)));
 				questionIndex = i;
 			}
 		}
-		questions.remove(questionIndex);
+		questions.remove(questionIndex); // removes the question from the list so questions aren't repeated
 		return closestQuestion;
 	}
 	
@@ -75,32 +77,38 @@ public class Girlfriend {
 	 * @return String the girlfriend's response to any triggers found
 	 */ 
 	public String checkForTriggers(String response){
+		//Breaks responses into individual Strings
 		String[] responseList = response.split(" ");
 		
+		//Searches through both arrays for anything that mathces
 		for(String responseWord : responseList){
 			for(String word : triggerWords){
+				//Ensure it ignores case
 				word = word.toLowerCase();
 				response = response.toLowerCase();
-
+				
+				//Checks if there is a specified agression value
 				if(word.indexOf(",") != -1){
+					// Has to divide the word into it's parts: Triggerword and agression
 					int firstIndex = word.indexOf(",");
 					int secondIndex = word.indexOf("-");
 					String comment = word.substring(secondIndex + 2);
 					int agressionScore = Integer.parseInt(word.substring(firstIndex + 2, secondIndex - 1));
 					word = word.substring(0, firstIndex);
 					
-					if (responseWord.equalsIgnoreCase(word)){
+					if (responseWord.equalsIgnoreCase(word)){ //Checks if the response contains the trigger
 						agression += agressionScore;
 						return comment;
 					}
-				}else if (responseWord.equalsIgnoreCase(word)){
-					if (word.indexOf(",") == -1){
+				}else if (responseWord.equalsIgnoreCase(word)){//If there is not it is just a female name and it doesnt have to do much work
+					if (word.indexOf(",") == -1){ //Checks if the response contains the name
 						agression += 1;
 						return "I don't want to hear about this " + word + " person. You probably love them more than me";
 					}
 				}
 			}
 		}
+		//Makes sure the reponse isn't too long or too short
 		if(responseList.length < 4){
 			agression += 1;
 			return "That's really all you have to say? Think of a little more to respond.";
@@ -108,7 +116,7 @@ public class Girlfriend {
 			agression += 1;
 			return "I'm not reading all of that";
 		}else{
-			return findPositiveResponse();
+			return findPositiveResponse(); // If everything went right, it returns a basic resopnse
 		}
 	}
 	
@@ -130,7 +138,7 @@ public class Girlfriend {
 			{"Okay, whatever.", "Alright, if you say so.", "I don't even care what you say at this point.", "Why should I believe what you say."}, 
 			{"Sure, if you think so.", "Whatever you say.", "Sounds believable.", "I don't believe Liars.", "It's about time we break up"}};
 		
-		return agressionTable[agression][(int)(Math.random() * agressionTable[agression].length)];
+		return agressionTable[agression][(int)(Math.random() * agressionTable[agression].length)]; //Finds a random item from the table at the current agression level
 	}
 	
 	/**
@@ -141,11 +149,11 @@ public class Girlfriend {
 	 */ 
 	private ArrayList<String> fileToArrayList(File file){
 		ArrayList<String> newArray = new ArrayList<String>();
-		try {
+		try { // Tries to open the file
 			Scanner sc = new Scanner(file);
-			while(sc.hasNextLine()){
+			while(sc.hasNextLine()){ // Scanner reads all lines and puts each line into the ArrayList
 				String next = sc.nextLine();
-				if (!next.equalsIgnoreCase(NAME)) {
+				if (!next.equalsIgnoreCase(NAME)) { //Doesn't add a female name if it is the same as the girlfriend's name
 					newArray.add(next);
 				}
 			}
@@ -154,7 +162,7 @@ public class Girlfriend {
 		}catch(Exception e){
 			System.out.println(e);
 		}
-		return newArray;
+		return newArray; // Returns the file as an arraylist
 	}
 	
 	/**

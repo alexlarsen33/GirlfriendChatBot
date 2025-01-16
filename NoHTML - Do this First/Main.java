@@ -32,19 +32,22 @@ public class Main {
 	public static void main(String[] args) {
 		boolean isTalking = true;
 		Scanner input = new Scanner(System.in); //creates a scanner for user input
+		System.out.println("Type \"exit\" to leave at any time");
 		System.out.print("Welcome to girlfriend simulator, What would you like to name her? "); //opening statement goes here
 		
 		userInput = input.nextLine();
 		Girlfriend gf = new Girlfriend(userInput);//Create girlfriend object
 		
-		while (isTalking) {
-			System.out.print("(" + gf.getAgression() + ") " + gf.askQuestion() + " ");
+		while (isTalking) { //Main loop
+			System.out.print("(" + gf.getAgression() + ") " + gf.askQuestion() + " "); // Prints the girlfriend's question
 			questionsAsked += 1;
 			
-			String response = input.nextLine();
+			//Gets input and check for exiting
+			String response = input.nextLine(); 
 			if(!response.equalsIgnoreCase("exit")){
-				System.out.println(gf.checkForTriggers(response));
+				System.out.println(gf.checkForTriggers(response)); // Print the girlfriend's response
 				
+				//Check if game should be over
 				if(gf.getAgression() >= maxAgression){
 					System.out.println("I'm done");
 					System.out.println("*Your girlfriend got too mad and stormed off*");
